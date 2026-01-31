@@ -1,8 +1,21 @@
-1.  first add ip on /etc/ansible/hosts
-2. check : ansible all -m ping
-3. cd /etc/ansible/roles/
-4. ansible-galaxy init httpd_setup
-5. 
-
-
+# Ansible_Lab
+Working on RedHat/Fedora
+First go to root user: su -
+1. install ansible: dnf install ansible -y
+if this command not working then do step 2 first, then run this installation command
+2. update the system using: dnf install epel-realease -y
+3. create passwordless ssh connections on your local machine:
+ssh-keygen
+then enter,enter and enter
+after that
+ssh-copy-id root@<remote server ip>
+4. go to ansible directory: cd /etc/ansible/
+5. add remote server ip on hosts file: vi hosts 
+(here add the remote server ips)  (use only redhat/fedora/debian/ubuntu/kali machine)
+6. for testing purpose: ansible all -m ping
+7. use this repository to download files: git clone https://github.com/MrTarit0x/Ansible_Lab.git
+8. then move fwd_service and httpd_setup folder to roles folder: mv fwd_service/ httpd_setup/ roles/ 
+9. then go back to playbooks folder: cd /etc/ansible/playbooks/
+10. then run : ansible-playbook roles_demo.yml
+11. for checking, go to your browser url, then type your server ip, hit enter.
 
