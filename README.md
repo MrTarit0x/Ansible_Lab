@@ -57,18 +57,17 @@ This lab demonstrates how to:
 su -
 ````
 
----
-
-### ⚙️ Step-by-Step Setup Guide
-
-Move the role folders to the Ansible roles directory:
-
 
 ---
 
-### 🔹 Step 8: Move Role Directories
+### ⚙️ Step-by-Step Setup Guide ⚙️
 
-Move the role folders to the Ansible roles directory:
+
+---
+
+### 🔹 Step 1: Switch to Root User
+
+Switch to the root user of your main system:
 
 ```bash
 su -
