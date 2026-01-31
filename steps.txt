@@ -19,3 +19,7 @@ ssh-copy-id root@<remote server ip>
 10. then run : ansible-playbook roles_demo.yml
 11. for checking, go to your browser url, then type your server ip, hit enter.
 
+git init
+git add .
+git commit -m ""
+git push origin main

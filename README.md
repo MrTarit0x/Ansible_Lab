@@ -1,5 +1,4 @@
 
----
 
 ````md
 # 🚀 Ansible Lab — Role-Based Automation
@@ -46,7 +45,7 @@ This lab demonstrates how to:
 
 ---
 
-## ⚙️ Step-by-Step Setup Guide
+### ⚙️ Step-by-Step Setup Guide
 
 ---
 
