@@ -43,12 +43,11 @@ This lab demonstrates how to:
 - Internet connectivity
 - SSH access enabled on all servers
 
-
-
-
-
-
 ---
+
+
+
+
 
 ### ⚙️ Step-by-Step Setup Guide
 
