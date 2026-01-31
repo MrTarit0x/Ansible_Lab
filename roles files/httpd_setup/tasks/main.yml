@@ -1,0 +1,58 @@
+---
+# tasks file for httpd_setup
+
+- name: Install Httpd on RedHat
+  dnf:
+    name: "{{ httpd_package_name }}"
+    state: present
+  when: ansible_os_family == "RedHat"
+  become: true
+
+- name: Install Httpd on Fedora
+  dnf:
+    name: "{{ httpd_package_name }}"
+    state: present
+  when: ansible_os_family == "RedHat"
+  become: true
+
+- name: Install apache2 on ubuntu or kali
+  apt:
+    name: "{{ apache2_package_name }}"
+    state: present
+  when: ansible_os_family == "Debian"
+  become: true
+
+- name: Place custom HTML File
+  copy:
+    src: index.html
+    dest: /var/www/html/index.html
+  become: true
+
+- name: Place custom HTML File
+  copy:
+    src: a.jpg
+    dest: /var/www/html/a.jpg
+  become: true
+
+- name: Place custom HTML File
+  copy:
+    src: a.jpeg
+    dest: /var/www/html/a.jpeg
+  become: true
+
+- name: Start the service
+  service:
+    name: "{{ httpd_package_name }}"
+    state: started
+    enabled: yes
+  when: ansible_os_family == "RedHat"
+  become: true
+
+- name: Start the service on Debian/Ubuntu/Kali
+  service:
+    name: "{{ apache2_package_name }}"
+    state: started
+    enabled: yes
+  when: ansible_os_family == "Debian"
+  become: true
+
