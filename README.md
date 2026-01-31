@@ -43,10 +43,7 @@ This lab demonstrates how to:
 - Internet connectivity
 - SSH access enabled on all servers
 
----
 
-```bash
-su -
 ````
 
 
