@@ -57,6 +57,20 @@ This lab demonstrates how to:
 su -
 ````
 
+
+
+---
+
+### 🔹 Step 8: Move Role Directories
+
+Move the role folders to the Ansible roles directory:
+
+```bash
+su -
+```
+
+
+
 ---
 
 ### 🔹 Step 2: Install Ansible
@@ -230,15 +244,4 @@ Feel free to modify, extend, and experiment with the playbooks and roles.
 
 Happy Automating! 🚀✨
 
-```
 
----
-
-If you want next upgrades, I can:
-- Add **badges** (Ansible, Linux, Automation)
-- Add **troubleshooting & common errors**
-- Add **role explanations**
-- Make it **GitHub-portfolio ready**
-
-Just say the word 💪
-```
