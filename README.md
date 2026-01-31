@@ -66,19 +66,19 @@ su -
 
 ---
 
-### 🔹 Step 2: Install Ansible
+### 🔹 Step 2: Install Ansible and git
 
-Try installing Ansible directly:
+Try installing Ansible and git directly:
 
 ```bash
-dnf install ansible -y
+dnf install ansible git -y
 ```
 
 If Ansible is not available, enable EPEL repository first:
 
 ```bash
 dnf install epel-release -y
-dnf install ansible -y
+dnf install ansible git -y
 ```
 
 ---
@@ -168,14 +168,15 @@ git clone https://github.com/MrTarit0x/Ansible_Lab.git
 Move the role folders to the Ansible roles directory:
 
 ```bash
-mv fwd_service/ httpd_setup/ /etc/ansible/roles/
+mv Ansible_Lab/roles/* roles/
 ```
 
 ---
 
-### 🔹 Step 9: Navigate to Playbooks Directory
+### 🔹 Step 9: Move playbooks and Navigate to Playbooks Directory
 
 ```bash
+mv Ansible_Lab/playbooks/ /etc/ansible/
 cd /etc/ansible/playbooks/
 ```
 
