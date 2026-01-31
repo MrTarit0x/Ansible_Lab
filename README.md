@@ -48,9 +48,9 @@ This lab demonstrates how to:
 
 
 ---
-
+<div align="center">
 ### ⚙️ Step-by-Step Setup Guide ⚙️
-
+</div>
 
 ---
 
