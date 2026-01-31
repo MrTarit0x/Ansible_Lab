@@ -21,6 +21,6 @@ ssh-copy-id root@<remote server ip>
 
 git init
 git add .
-git commit -m "update"
+git commit -m "update code"
 git push origin main
 
