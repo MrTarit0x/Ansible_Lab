@@ -168,7 +168,7 @@ git clone https://github.com/MrTarit0x/Ansible_Lab.git
 Move the role folders to the Ansible roles directory:
 
 ```bash
-mv Ansible_Lab/roles/* roles/
+mv Ansible_Lab/roles/* /etc/ansible/roles/
 ```
 
 ---
