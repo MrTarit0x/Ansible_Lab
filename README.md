@@ -47,29 +47,21 @@ This lab demonstrates how to:
 
 
 
+
+---
+
 ### ⚙️ Step-by-Step Setup Guide
+
 
 ---
 
 ### 🔹 Step 1: Switch to Root User
 
-```bash
-su -
-````
-
-
-
----
-
-### 🔹 Step 8: Move Role Directories
-
-Move the role folders to the Ansible roles directory:
+Switch to Root User of your main machine:
 
 ```bash
 su -
 ```
-
-
 
 ---
 
