@@ -1,0 +1,8 @@
+1.  first add ip on /etc/ansible/hosts
+2. check : ansible all -m ping
+3. cd /etc/ansible/roles/
+4. ansible-galaxy init httpd_setup
+5. 
+
+
+

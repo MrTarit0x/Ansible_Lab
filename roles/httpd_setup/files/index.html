@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biography | Tarit Mandal</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(14px);
+            border-radius: 20px;
+            padding: 40px;
+            width: 90%;
+            max-width: 850px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .profile-pic {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid #00f5ff;
+            box-shadow: 0 0 25px rgba(0,245,255,0.5);
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .info h1 {
+            font-size: 2.6rem;
+            font-weight: 700;
+        }
+
+        .info h3 {
+            font-weight: 400;
+            color: #9beeff;
+            margin-top: 8px;
+        }
+
+        .tagline {
+            margin-top: 10px;
+            font-size: 0.95rem;
+            color: #c9f7ff;
+        }
+
+        .links {
+            margin-top: 10px;
+            font-size: 0.95rem;
+        }
+
+        .links a {
+            color: #00f5ff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.3s ease;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+            color: #ffffff;
+        }
+
+        .links span {
+            display: block;
+            margin-top: 4px;
+        }
+
+        .section {
+            margin-top: 40px;
+        }
+
+        .section h2 {
+            font-size: 1.7rem;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            width: 70px;
+            height: 4px;
+            background: #00f5ff;
+            position: absolute;
+            left: 0;
+            bottom: -6px;
+            border-radius: 10px;
+        }
+
+        .section p {
+            line-height: 1.9;
+            color: #e6fbff;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+            background: rgba(0, 245, 255, 0.15);
+            border: 1px solid rgba(0,245,255,0.4);
+            padding: 10px 18px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            transition: 0.3s ease;
+        }
+
+        .skill:hover {
+            background: #00f5ff;
+            color: #002b36;
+            transform: translateY(-4px);
+        }
+
+        .footer {
+            margin-top: 45px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #bdefff;
+        }
+
+        @media (max-width: 600px) {
+            .info h1 {
+                font-size: 2.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="profile-pic">
+                <img src="a.jpeg" alt="Tarit Profile Photo">
+            </div>
+            <div class="info">
+                <h1>TARIT MANDAL</h1>
+                <h3>Cyber Security • SOC Analyst • RHCSA • CCNA</h3>
+                <div class="tagline">
+                    Threat Detection | Incident Response | Defensive & Offensive Security
+                </div>
+
+                <div class="links">
+                    <span>
+                        TryHackMe:
+                        <a href="https://tryhackme.com/p/Mr.Tarit0x" target="_blank">
+                            Mr.Tarit0x
+                        </a>
+			<a>  •  </a>  
+			GitHub:
+                        <a href="https://github.com/MrTarit0x" target="_blank">
+                            MrTarit0x
+                        </a>
+                    </span>
+
+                    </span>
+          
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                I am a Cyber Security student and SOC Analyst with hands-on experience
+                in monitoring, detecting, and analyzing security incidents.
+                I work with enterprise Linux environments and offensive security tools
+                to strengthen system defenses and improve security posture.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills">
+                <div class="skill">SOC Operations</div>
+                <div class="skill">Threat Analysis</div>
+                <div class="skill">Incident Response</div>
+                <div class="skill">Red Hat Linux</div>
+                <div class="skill">Kali Linux</div>
+                <div class="skill">Networking</div>
+                <div class="skill">SIEM Monitoring</div>
+                <div class="skill">Log Analysis</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Focus Areas</h2>
+            <p>
+                Security monitoring, blue team operations, vulnerability analysis,
+                ethical hacking, Linux administration, and continuous learning
+                in cyber defense technologies.
+            </p>
+        </div>
+
+        <div class="footer">
+            © 2026 Tarit • Cyber Security Portfolio
+        </div>
+    </div>
+
+</body>
+</html>
+
